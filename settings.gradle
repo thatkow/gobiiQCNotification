@@ -1,0 +1,16 @@
+include ':kdc_database'
+project(':kdc_database').projectDir = new File(settingsDir, '../kdc_database')
+include ':kdc_serverlib'
+project(':kdc_serverlib').projectDir = new File(settingsDir, '../kdc_serverlib')
+include ':kdc_pluginlib'
+project(':kdc_pluginlib').projectDir = new File(settingsDir, '../kdc_pluginlib')
+include ':kdc_modules'
+project(':kdc_modules').projectDir = new File(settingsDir, '../kdc_modules')
+include ':kdc_inmemory'
+project(':kdc_inmemory').projectDir = new File(settingsDir, '../kdc_inmemory')
+include ':kdc_kddartdal'
+project(':kdc_kddartdal').projectDir = new File(settingsDir, '../kdc_kddartdal')
+include ':elfinder_2_x_servlet'
+project(':elfinder_2_x_servlet').projectDir = new File(settingsDir, '../elfinder_2_x_servlet')
+include ':kdc_gobiiqc'
+project(':kdc_gobiiqc').projectDir = new File(settingsDir, '../kdc_gobiiqc')
